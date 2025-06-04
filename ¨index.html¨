@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protección Consciente para Mujeres con Futuro</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffafc;
+      color: #333;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    h1 {
+      color: #c94f7c;
+    }
+    .test-box {
+      background-color: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input[type="text"], input[type="tel"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #c94f7c;
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>¿Eres una Mujer con Futuro?</h1>
+    <p>Haz este test gratuito y descubre si estás lista para proteger lo que más amas: tu salud, tu dinero y tus sueños.</p>
+
+    <div class="test-box">
+      <label for="name">Nombre completo:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">WhatsApp:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Ej: 55 1234 5678" required>
+
+      <a class="button" href="https://wa.me/525616928889?text=Hola,%20quiero%20hacer%20el%20test%20de%20Mujer%20con%20Futuro">Enviar y hacer el test</a>
+    </div>
+
+    <div class="footer">
+      <p>Recibirás el test completo y podrás agendar tu sesión gratuita de Protección Consciente.</p>
+    </div>
+  </div>
+</body>
+</html>
